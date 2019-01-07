@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/demoboss/AndroidStudioProjects/Dziennik/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/demoboss/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/60dc4e7344e49591876dd19607c21199/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "/home/demoboss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2bffad7ae2fa2fc09f7b79f0122b3f43/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}
