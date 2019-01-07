@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#FFDB1D1D</color>
+    <color name="colorAccent">#09b610</color>
+    <color name="jasnyKolorTekstu">#FFF0F0F0</color>
+    <color name="ciemnyKolorTekstu">#FF0B0B0B</color>
+    <color name="kolorTlaPrzycisku">#FFDB1D1D</color>
+    <color name="kolorTlaPrzycisku2">#dd11ffdd</color>
+</resources>

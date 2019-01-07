@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uwagi_o">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz ucznia:"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <Spinner
+        android:id="@+id/spinner_uczniow"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz przedmiot:"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <Spinner
+        android:id="@+id/spinner_przedmioty"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <GridView
+        android:id="@+id/grid_uwagi"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="200dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="12dp"
+        android:horizontalSpacing="12dp"
+        android:stretchMode="columnWidth"
+        android:layout_centerHorizontal="true"
+        ></GridView>
+
+</RelativeLayout>

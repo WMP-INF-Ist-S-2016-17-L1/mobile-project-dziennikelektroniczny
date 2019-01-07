@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1000637250568",
+    "firebase_url": "https://dziennikelektroniczny-cf816.firebaseio.com",
+    "project_id": "dziennikelektroniczny-cf816",
+    "storage_bucket": "dziennikelektroniczny-cf816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000637250568:android:45da63e23573456c",
+        "android_client_info": {
+          "package_name": "com.example.kamill.githubtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000637250568-cte5hr6eaa3anj9nmg9s2gfk11tf0a7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kamill.githubtest",
+            "certificate_hash": "0f61116356a2cc410da8674c617ffd2b8c68b4bb"
+          }
+        },
+        {
+          "client_id": "1000637250568-1ph1m91cccq1jglbf65j3adcuf7cbmg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQgq6mV12eiAN0YvkxY2kbgt_6YNOuqe0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000637250568-1ph1m91cccq1jglbf65j3adcuf7cbmg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

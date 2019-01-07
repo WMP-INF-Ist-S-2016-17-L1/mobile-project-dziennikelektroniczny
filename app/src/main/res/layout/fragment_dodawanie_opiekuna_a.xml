@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dodawanie_opiekuna_a">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Adres e-mail"
+        android:textSize="18sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <EditText
+        android:id="@+id/login_opiekuna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="170dp"
+        android:ems="10"
+        android:hint="E-mail opiekuna"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="Imię"
+        android:textSize="18sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <EditText
+        android:id="@+id/imie_opiekuna"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Imie opiekuna"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nazwisko"
+        android:textSize="18sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <EditText
+        android:id="@+id/nazwisko_opiekuna"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nazwisko opiekuna"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:text="Numer telefonu"
+        android:textSize="18sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <EditText
+        android:id="@+id/telefon_opiekuna"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nr telefonu do opiekuna"
+        android:inputType="phone" />
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20dp"
+        android:text="Wybierz ucznia"
+        android:textSize="18sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <Spinner
+        android:id="@+id/spinner_lista_uczniow"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_toStartOf="@+id/dodaj_ucznia_do_listy_btn"
+        android:layout_toLeftOf="@+id/dodaj_ucznia_do_listy_btn"></Spinner>
+
+    <Button
+        android:id="@+id/dodaj_ucznia_do_listy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Dodaj ucznia"
+        android:width="140dp"
+        android:height="60dp"
+        android:background="@color/kolorTlaPrzycisku"
+        android:textColor="@color/jasnyKolorTekstu"/>
+
+    <ListView
+        android:id="@+id/lista_uczniow_ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/dodaj_opiekuna_btn"
+        android:layout_toLeftOf="@+id/dodaj_opiekuna_btn"></ListView>
+
+    <Button
+        android:id="@+id/dodaj_opiekuna_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="dodaj_opiekuna"
+        android:text="Dodaj opiekuna"
+        android:background="@color/kolorTlaPrzycisku"
+        android:textColor="@color/jasnyKolorTekstu"
+        android:width="150dp"
+        android:height="60dp"/>
+
+</RelativeLayout>
+</ScrollView>

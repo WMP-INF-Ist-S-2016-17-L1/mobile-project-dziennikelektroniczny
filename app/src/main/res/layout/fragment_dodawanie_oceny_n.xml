@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dodawanie_oceny_n">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Wybierz klasę"
+        android:textSize="24sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+        <Spinner
+            android:id="@+id/spinner_klasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:textColor="@color/ciemnyKolorTekstu"></Spinner>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:text="Wybierz przedmiot"
+            android:textSize="24sp"
+            android:textColor="@color/ciemnyKolorTekstu"/>
+
+        <Spinner
+            android:id="@+id/spinner_przedmioty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="165dp"
+            android:textColor="@color/ciemnyKolorTekstu"></Spinner>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:text="Wybierz ucznia"
+            android:textSize="24sp"
+            android:textColor="@color/ciemnyKolorTekstu"/>
+
+        <Spinner
+            android:id="@+id/spinner_uczniowie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="275dp"
+            android:textColor="@color/ciemnyKolorTekstu"></Spinner>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:text="Ocena za"
+        android:textSize="24sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+
+    <Spinner
+        android:id="@+id/spinner_zaco2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="385dp"
+        android:textColor="@color/ciemnyKolorTekstu"></Spinner>
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="Ocena"
+        android:textSize="24sp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="385dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:gravity="center"
+        android:hint="Wpisz ocenę"
+        android:inputType="numberSigned"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:width="150dp"
+        android:height="60dp"
+        android:text="Dodaj ocenę"
+        android:textColor="@color/jasnyKolorTekstu"
+         />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

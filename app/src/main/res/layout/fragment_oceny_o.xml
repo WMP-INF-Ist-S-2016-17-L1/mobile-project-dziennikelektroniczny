@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oceny_o">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz ucznia:"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <Spinner
+        android:id="@+id/spinner_uczniow"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz przedmiot:"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/ciemnyKolorTekstu"/>
+
+    <Spinner
+        android:id="@+id/spinner_przedmioty"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_spr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Sprawdzian"
+            android:textSize="24dp"
+            android:textColor="@color/ciemnyKolorTekstu"/>
+
+        <com.example.kamill.githubtest.ExpandableHeightGridView
+            android:id="@+id/grid_oceny_sprawdzian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_spr"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="20dp"
+            android:isScrollContainer="false"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="20dp"></com.example.kamill.githubtest.ExpandableHeightGridView>
+
+        <TextView
+            android:id="@+id/text_kart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grid_oceny_sprawdzian"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Kartkówka"
+            android:textSize="24dp"
+            android:textColor="@color/ciemnyKolorTekstu"/>
+
+        <com.example.kamill.githubtest.ExpandableHeightGridView
+            android:id="@+id/grid_oceny_kartkowka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/text_kart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="20dp"
+            android:isScrollContainer="false"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="20dp"></com.example.kamill.githubtest.ExpandableHeightGridView>
+
+        <TextView
+            android:id="@+id/text_odp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grid_oceny_kartkowka"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Odpowiedź ustna"
+            android:textSize="24dp"
+            android:textColor="@color/ciemnyKolorTekstu"/>
+
+        <com.example.kamill.githubtest.ExpandableHeightGridView
+            android:id="@+id/grid_oceny_odpowiedz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_odp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="20dp"
+            android:isScrollContainer="false"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:layout_marginBottom="20dp"
+            android:verticalSpacing="20dp"></com.example.kamill.githubtest.ExpandableHeightGridView>
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

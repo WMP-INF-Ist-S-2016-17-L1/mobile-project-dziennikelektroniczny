@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Oceny">
+        <menu>
+            <item
+                android:id="@+id/dodaj_ocene"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Dodaj ocenę" />
+        </menu>
+    </item>
+    <item android:title="Uwagi">
+        <menu>
+            <item
+                android:id="@+id/dodaj_uwage"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Dodaj uwagę" />
+        </menu>
+    </item>
+    <item android:title="Informacje">
+        <menu>
+            <item
+                android:id="@+id/przedmioty_nauczyciela"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Moje przedmioty" />
+            <item
+                android:id="@+id/klasy_nauczyciela"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Moje klasy" />
+        </menu>
+    </item>
+
+    <item android:title="Wyloguj">
+        <menu>
+            <item
+                android:id="@+id/wyloguj"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Wyloguj" />
+        </menu>
+    </item>
+
+</menu>

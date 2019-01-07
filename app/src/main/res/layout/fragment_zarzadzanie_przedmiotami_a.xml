@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zarzadzanie_przedmiotami_a">
+
+    <TextView
+        android:id="@+id/wpisz_nazwe_przedmiotu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Dodaj nowy przedmiot"
+        android:textColor="@color/ciemnyKolorTekstu"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:id="@+id/nowy_przedmiot_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="44dp"
+        android:layout_toStartOf="@+id/dodaj_przedmiot_btn"
+        android:layout_toLeftOf="@+id/dodaj_przedmiot_btn"
+        android:ems="10"
+        android:hint="Wpisz nazwe przedmiotu"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/dodaj_przedmiot_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Dodaj"
+        android:background="@color/kolorTlaPrzycisku"
+        android:textColor="@color/jasnyKolorTekstu"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        android:text="_______________________________________________________________________________"/>
+
+    <TextView
+        android:id="@+id/lista_przedmiotow_text_view"
+        android:text="Lista wszystkich przedmiotów:"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ciemnyKolorTekstu"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/lista_przedmiotow_list_view"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+</RelativeLayout>
